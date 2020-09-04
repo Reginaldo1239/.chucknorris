@@ -8,4 +8,4 @@ export default function Center(props){
             {children}
         </div>
     )
-}
+}  
