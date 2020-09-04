@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/.chucknorris/static/css/main.3375a02a.chunk.css",
-    "main.js": "/.chucknorris/static/js/main.17b8fa12.chunk.js",
-    "main.js.map": "/.chucknorris/static/js/main.17b8fa12.chunk.js.map",
+    "main.js": "/.chucknorris/static/js/main.090db03c.chunk.js",
+    "main.js.map": "/.chucknorris/static/js/main.090db03c.chunk.js.map",
     "runtime-main.js": "/.chucknorris/static/js/runtime-main.8a34fbf9.js",
     "runtime-main.js.map": "/.chucknorris/static/js/runtime-main.8a34fbf9.js.map",
     "static/js/2.16ee6872.chunk.js": "/.chucknorris/static/js/2.16ee6872.chunk.js",
     "static/js/2.16ee6872.chunk.js.map": "/.chucknorris/static/js/2.16ee6872.chunk.js.map",
     "index.html": "/.chucknorris/index.html",
-    "precache-manifest.22d7336add7f3b4147bcd3f4ed6b2d97.js": "/.chucknorris/precache-manifest.22d7336add7f3b4147bcd3f4ed6b2d97.js",
+    "precache-manifest.4ced388d48e26ece07272026c8aa73cd.js": "/.chucknorris/precache-manifest.4ced388d48e26ece07272026c8aa73cd.js",
     "service-worker.js": "/.chucknorris/service-worker.js",
     "static/css/main.3375a02a.chunk.css.map": "/.chucknorris/static/css/main.3375a02a.chunk.css.map",
     "static/js/2.16ee6872.chunk.js.LICENSE.txt": "/.chucknorris/static/js/2.16ee6872.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.8a34fbf9.js",
     "static/js/2.16ee6872.chunk.js",
     "static/css/main.3375a02a.chunk.css",
-    "static/js/main.17b8fa12.chunk.js"
+    "static/js/main.090db03c.chunk.js"
   ]
 }
