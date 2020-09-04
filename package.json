@@ -2,7 +2,7 @@
   "name": "chuck-norris",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://reginaldo1239.github.io/.chucknorris"
+  "homepage": "https://reginaldo1239.github.io/.chucknorris/"
   ,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
