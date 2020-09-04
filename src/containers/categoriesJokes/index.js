@@ -19,7 +19,6 @@ const getCategory =async ()=>{
     try{
    if(category.status===200){
        category = await category.data;   
-       console.log(category)
        dispatch(addJokeCategories(category))
    }else{
     alert('ocorreu um erro')

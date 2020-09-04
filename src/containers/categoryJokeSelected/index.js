@@ -36,11 +36,12 @@ export default function CategoryJokeSelectedContainer(){
                 <JokeItem 
                 values={joke}></JokeItem>
             </div>
+            { category!=null&&
             <div className={Style.button}>
                 <Button
                 title={'next'}
                 onClick={()=>getJoke()}></Button>
-            </div>
+            </div>}
          </div>
     )
 }  
