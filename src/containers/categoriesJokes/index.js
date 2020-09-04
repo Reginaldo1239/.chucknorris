@@ -25,14 +25,14 @@ const getCategory =async ()=>{
     alert('ocorreu um erro')
    }
     }catch(e){
-     alert('ocorreu um erro')
+        alert('ocorreu um erro')
     }
 } 
 const selectCategory=(category)=>{
     dispatch(categoryJokeSelectedAction(category));
     dispatch(jokeCategoriesVisibleMobileAction());
 }
- 
+  
 return(
  <>
      <nav className={Style.navDesktop}>  

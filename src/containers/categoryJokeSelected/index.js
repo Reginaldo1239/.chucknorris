@@ -10,22 +10,26 @@ export default function CategoryJokeSelectedContainer(){
     const joke = useSelector(state=>state.joke.joke);
     const dispatch = useDispatch();
         useEffect(()=>{ 
+            if(category!=null){
             getJoke();
+            }
         },[category]);
     const getJoke =async ()=>{
          let endPoint = `/jokes/random?category=${category}`;
          try{
          let joke =await get(endPoint);
-        if(joke.status===200){
+       
+         if(joke.status===200){
+         
              joke = await joke.data;
             dispatch(newJokeAction(joke));
-         }else {
+         }else  {
             alert('ocorreu um erro')
          } 
             }catch(e){
                 alert('ocorreu um erro')
             }
-        }
+        } 
     return (
         <div className={Style.container}>
              <div className={Style.jokeItem}>
