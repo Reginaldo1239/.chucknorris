@@ -1,0 +1,15 @@
+.container{
+    width: 100%;
+}
+.button{
+    margin-top:10px
+}
+.jokeItem{
+    margin-top: 10px;
+}   
+
+@media only screen and (max-width: 875px) {
+    .container{
+     padding: 0 15px
+    }
+} 

@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    width: 100%;
+    min-height: 100px;
+    background-color:var(--gray_light);
+    border-radius: 10px;
+    
+}
+.jokeEmpty{
+    padding: 20px; 
+}
+.box:first-child{
+ width: 8%;
+ padding: 5px;
+}
+.box:last-child{
+    width: 92%;
+    padding: 10px 0;
+} 
+.iconImg{
+    width: 100%;
+}
+.span{
+    font-family:'Arial Narrow', Arial, sans-serif;
+}
+
+@media only screen and (max-width: 875px) {
+    .box:first-child{
+        width: 15%;
+        padding: 5px;
+       }
+       .box:last-child{
+           width: 85%;
+           padding: 10px 0;
+       }
+}
