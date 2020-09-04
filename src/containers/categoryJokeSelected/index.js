@@ -14,13 +14,17 @@ export default function CategoryJokeSelectedContainer(){
         },[category]);
     const getJoke =async ()=>{
          let endPoint = `/jokes/random?category=${category}`;
+         try{
          let joke =await get(endPoint);
         if(joke.status===200){
              joke = await joke.data;
             dispatch(newJokeAction(joke));
          }else {
-             getJoke();
-         }
+            alert('ocorreu um erro')
+         } 
+            }catch(e){
+                alert('ocorreu um erro')
+            }
         }
     return (
         <div className={Style.container}>

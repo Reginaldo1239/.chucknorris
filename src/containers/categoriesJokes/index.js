@@ -22,10 +22,10 @@ const getCategory =async ()=>{
        console.log(category)
        dispatch(addJokeCategories(category))
    }else{
-    getCategory();
+    alert('ocorreu um erro')
    }
     }catch(e){
-        getCategory();
+     alert('ocorreu um erro')
     }
 } 
 const selectCategory=(category)=>{
