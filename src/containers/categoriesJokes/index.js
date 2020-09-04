@@ -16,11 +16,17 @@ export default function CategoriesJokesContainer (){
     
 const getCategory =async ()=>{   
     let category = await get('/jokes/categories');
+    try{
    if(category.status===200){
        category = await category.data;   
        console.log(category)
        dispatch(addJokeCategories(category))
+   }else{
+    getCategory();
    }
+    }catch(e){
+        getCategory();
+    }
 } 
 const selectCategory=(category)=>{
     dispatch(categoryJokeSelectedAction(category));
