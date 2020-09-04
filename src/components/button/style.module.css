@@ -25,6 +25,6 @@
     }
     .button:active{
         background-color:var(--orange-strong);
-        opacity: 0.8;
+        opacity: 1;
     }
 }               
